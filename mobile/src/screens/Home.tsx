@@ -3,7 +3,7 @@ import { Text, View, ScrollView, Alert } from 'react-native';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 
 import { api } from '../lib/axios';
-import { generateRangeDatesFromYearStart } from '../utils/generate-range-dates-from-year-start';
+import { generateRangeDatesFromYearStart } from '../utils/generate-range-beteween-dates';
 
 import { Header } from '../components/Header';
 import { Loading } from '../components/Loading';
