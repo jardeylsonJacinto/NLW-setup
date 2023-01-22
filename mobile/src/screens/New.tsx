@@ -84,9 +84,9 @@ export function New() {
           onPress={handleCreateNewHabit}
         >
           <Feather 
-           name="check"
-           size={20}
-           color={colors.white}
+            name="check"
+            size={20}
+            color={colors.white}
           />
 
           <Text className="font-semibold text-base text-white ml-2">
